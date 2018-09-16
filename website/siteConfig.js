@@ -13,7 +13,7 @@ const users = [
   {
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    // if it is not '/', like: '/torisetsu-ie/img/docusaurus.svg'.
     image: '/img/docusaurus.svg',
     infoLink: 'https://www.facebook.com',
     pinned: true,
@@ -23,14 +23,14 @@ const users = [
 const siteConfig = {
   title: 'アイルランド取扱説明書', // Title for your website.
   tagline: 'アイルランドで生活する日本人の皆さんへ情報を提供するサイトです。',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  url: 'https://www.torisetsu-ie.net', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
+  //   baseUrl: '/torisetsu-ie/',
 
   // Used for publishing and more
-  projectName: 'test-site',
+  projectName: 'torisetsu-ie',
   organizationName: 'アイルランド取扱説明書管理委員会',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -89,7 +89,10 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/tsmasuda/torisetsu-ie',
+
+  // Google Analytics tracking code
+  gaTrackingId: 'UA-37342953-11'
 };
 
 module.exports = siteConfig;
