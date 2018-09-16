@@ -1,0 +1,19 @@
+version: 0.2
+
+env:
+  variables:
+    key: "AWS_S3_BUCKET_NAME"
+            
+phases:
+  install:
+    commands:
+      - cd website
+      - npm install
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - cd build/*/
+      - ls -l
+      - aws s3 sync . $AWS_S3_BUCKET_NAME
