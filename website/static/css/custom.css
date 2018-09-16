@@ -1,5 +1,9 @@
 /* your custom css */
 
+.navPusher {
+    padding-top: 50px;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
@@ -7,6 +11,9 @@
 }
 
 @media only screen and (max-width: 1023px) {
+    .tocActive .onPageNav {
+        top: 98px;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
