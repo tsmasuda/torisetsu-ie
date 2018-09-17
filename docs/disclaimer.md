@@ -1,7 +1,7 @@
 ---
-id: notice
-title: サイト利用上の注意事項
-sidebar_label: サイト利用上の注意事項
+id: disclaimer
+title: 利用上の注意事項
+sidebar_label: 利用上の注意事項
 ---
 
 ## 個人情報の収集や第三者への開示

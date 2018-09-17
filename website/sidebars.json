@@ -1,10 +1,12 @@
 {
   "docs": {
     "はじめに": [
-      "intro"
+      "background",
+      "disclaimer"
     ],
-    "注意事項": [
-      "notice"
+    "目次": [
+      "introduction",
+      "transportation"
     ]
   }
 }
