@@ -1,6 +1,6 @@
 ---
 id: disclaimer
-title: 利用上の注意事項
+title: サイト利用上の注意事項
 sidebar_label: 利用上の注意事項
 ---
 
