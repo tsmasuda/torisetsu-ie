@@ -1,7 +1,7 @@
 ---
 id: rentalcar
 title: レンタカーの利用について
-sidebar_label: レンタカーの利用
+sidebar_label: レンタカー
 ---
 
 ## クレジットカードをもっていますか？

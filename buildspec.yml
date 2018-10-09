@@ -17,3 +17,4 @@ phases:
       - cd build/*/
       - ls -l
       - aws s3 sync . $AWS_S3_BUCKET_NAME
+      - aws cloudfront create-invalidation --distribution-id $AWS_CF_ID --paths "/*"
